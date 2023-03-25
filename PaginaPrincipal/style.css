@@ -1,0 +1,48 @@
+body{
+    background-color:#D9D9D9;
+}
+.cabecalho{
+    position: fixed;
+    right: 0;
+    left: 0;
+    display: flex;
+   top: 0;
+    background-color: #71734C;
+    color: #71734C;
+    height: 35px;
+}
+.segcabecalho{
+    position: fixed;
+    right: 0;
+    left: 0;
+    display: flex;
+    top: 35px;
+    background-color: #F27979;
+    color: #F27979;
+}
+
+/* essa vai ser a área abaixo do cabeçalho, possuindo a barra de pesquisa e afins */
+.divBusca {
+    position: absolute;
+    width: 500px;
+    height: 20px;
+    left: 1000px;
+    top: 250px;
+    background: #D9D9D9;
+    border-radius: 57px;
+    text-align: left;
+}
+.busca{
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 300px;
+    background-color: black;
+    top: 50px;
+}
+.carousel-item{
+    width: 100%;
+    height: 200px;
+    top: 200px;
+    background-size: cover;
+}
