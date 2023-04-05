@@ -32,7 +32,12 @@ background: #080808;
 }
 
 .nome{
-  color: #080808;  
+    float: right;
+    display: table-cell;
+    width: 600px;
+    margin-right: 200px;
+    margin-top: 200px;  
+    text-align: center;
 }
 
 .descricao{
@@ -40,5 +45,18 @@ float: right;
 display: table-cell;
 width: 600px;
 margin-right: 200px;
-margin-top: 200px;
+margin-top: 50px;
 }
+
+.opicoes{
+position: absolute;
+width: 497px;
+height: 142px;
+float: right;
+display: table-cell;
+width: 600px;
+margin-right: 200px;
+margin-top: 400px;
+
+background: #F27979;
+border-radius: 20px;}
