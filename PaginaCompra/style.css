@@ -1,0 +1,44 @@
+.body{
+    background-color: #D9D9D9;
+}
+
+.cabecalho{
+    position: fixed;
+    right: 0;
+    left: 0;
+    display: flex;
+   top: 0;
+    background-color: #71734C;
+    color: #71734C;
+    height: 35px;
+}
+.segcabecalho{
+    position: fixed;
+    right: 0;
+    left: 0;
+    display: flex;
+    top: 35px;
+    background-color: #F27979;
+    color: #F27979;
+}
+
+.img{
+    position: absolute;
+width: 620px;
+height: 620px;
+left: 100px;
+top: 150px;
+background: #080808;
+}
+
+.nome{
+  color: #080808;  
+}
+
+.descricao{
+float: right;
+display: table-cell;
+width: 600px;
+margin-right: 200px;
+margin-top: 200px;
+}
