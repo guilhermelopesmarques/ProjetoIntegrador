@@ -49,14 +49,64 @@ margin-top: 50px;
 }
 
 .opicoes{
-position: absolute;
-width: 497px;
-height: 142px;
+width: 600px;
+height: 110px;
 float: right;
 display: table-cell;
-width: 600px;
 margin-right: 200px;
-margin-top: 400px;
-
+margin-top: 10px;
 background: #F27979;
-border-radius: 20px;}
+border-radius: 20px;
+}
+.calcular{
+    float: right;
+    display: table-cell;
+    width: 600px;
+    margin-right: 200px;
+    margin-top: 50px;
+}
+.frete{
+    position: absolute;
+width: 200px;
+height: 30px;
+background: #71734C;
+border-radius: 30px;
+top: 590px;
+right: 10px;
+left: 800px;
+
+}
+
+.comprar{
+    position: absolute;
+    width: 200px;
+    height: 44px;
+    background: #F27979;
+    border-radius: 26px;
+    top: 650px;
+left: 800px; 
+}
+
+.adicionar{
+    position: absolute;
+    width: 200px;
+    height: 44px;
+    background: #F27979;
+    border-radius: 26px;
+    top: 650px;
+left: 1050px; 
+}
+
+.pesquisar{
+    position: absolute;
+    width: 60px;
+    height: 30px;
+    background: #71734C;
+    border-radius: 30px;
+    top: 590px;
+    right: 10px;
+    left: 1020px; 
+}
+.estrela{
+    width: 10px;
+}
