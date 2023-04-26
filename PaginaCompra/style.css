@@ -83,7 +83,7 @@ left: 800px;
     height: 44px;
     background: #F27979;
     border-radius: 26px;
-    top: 650px;
+    top: 900px;
 left: 800px; 
 }
 
@@ -93,7 +93,7 @@ left: 800px;
     height: 44px;
     background: #F27979;
     border-radius: 26px;
-    top: 650px;
+    top: 900px;
 left: 1050px; 
 }
 
@@ -107,6 +107,49 @@ left: 1050px;
     right: 10px;
     left: 1020px; 
 }
+.estreladesligada{
+    width: 40px;
+    right: 50px;
+    left: 10px;
+    margin-top: 105px;
+   
+}
 .estrela{
-    width: 10px;
+    margin-left: 288px;
+    margin-top: 600px;
+}
+.quantidade{
+    position: absolute;
+    top: 650px;
+    left: 840px;
+}
+.menos{
+    background: #F27979;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 704px;
+    left: 790px; 
+}
+.mais{
+    background: #F27979;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 704px;
+    left: 940px;
+}
+.numeros{
+    background: #F27979;
+    text-align: center;
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    top: 688px;
+    left: 825px;
+}
+.Comentarios{
+    position: absolute;
+    top: 1000px;
+    left: 100px;
 }

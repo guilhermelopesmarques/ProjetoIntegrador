@@ -103,3 +103,20 @@ function Avaliar(estrela) {
     document.getElementById('rating').innerHTML = avaliacao;
     
    }
+
+   var numeroElemento = document.getElementById("numero");
+  var botaoAumentar = document.getElementById("botao-almentar");
+  var botaoDiminuir = document.getElementById("botao-diminuir");
+  
+  botaoAumentar.addEventListener("click", function() {
+    var numeroAtual = parseInt(numeroElemento.textContent);
+    if (numeroAtual < 10) {
+        numeroElemento.textContent = numeroAtual + 1;
+    numeroElemento.textContent = numeroAtual + 1;
+  }});
+  
+  botaoDiminuir.addEventListener("click", function() {
+    var numeroAtual = parseInt(numeroElemento.textContent);
+    if (numeroAtual > 0) {
+    numeroElemento.textContent = numeroAtual - 1;
+  }});
