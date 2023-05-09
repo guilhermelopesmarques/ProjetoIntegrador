@@ -85,5 +85,57 @@ body{
 }
 
 
+/* novidades e promoções */
+
+.novidades{
+  position: absolute;
+  background: aqua;
+  border-radius: 57px;
+  width: 386px;
+  height: 213px;
+  top: 500px;
+  left: 180px;
+  
+}
+.novidadescor{
+  position: absolute;
+  background: rgb(0, 255, 21);
+  border-radius: 57px;
+  width: 386px;
+  height: 223px;
+  top: 490px;
+  left: 190px;
+}
+.novidadesEscrita{
+  position: absolute;
+  top: 590px;
+  left: 330px;
+}
+.produtos{
+  position: absolute;
+  background: aqua;
+  border-radius: 57px;
+  width: 386px;
+  height: 213px;
+  top: 500px;
+  left: 950px;
+  
+}
+.produtoscor{
+  position: absolute;
+  background: rgb(234, 0, 255);
+  border-radius: 57px;
+  width: 386px;
+  height: 223px;
+  top: 490px;
+  left: 960px;
+}
+.produtosEscrito{
+  position: absolute;
+  top: 590px;
+  left: 1100px;
+}
+
+
 
 
