@@ -1,139 +1,253 @@
 body{
-    background-color:#D9D9D9;
-    height: 1000px;
+  background-color: #D9D9D9;
+ 
 }
-.cabecalho{
-    position: absolute;
-    right: 0;
-    left: 0;
-    display: flex;
-   top: 0;
-    background-color: #71734C;
-    color: #71734C;
-    height: 35px;
+
+
+
+header {
+  height: 65px;
 }
-.segcabecalho{
-    position: absolute;
-    right: 0;
-    left: 0;
-    display: flex;
-    top: 35px;
-    background-color: #F27979;
-    color: #F27979;
+
+.banner>img{
+  width: 100%;
+  height: 460px;
+}
+
+.cabecalho {
+  position: flex;
+  right: 0;
+  left: 0;
+  display: flex;
+  top: 0;
+  background-color: #71734C;
+  color: #71734C;
+  height: 40px;
+}
+
+.segcabecalho {
+  position: absolute;
+  right: 0;
+  left: 0;
+  display: flex;
+  top: 4%;
+  background-color: #F27979;
+  color: #F27979;
+  height: 25px;
+}
+
+footer {
+  height: 60px;
+  bottom: 0px;
+  margin-top: auto;
+}
+
+.rodape,
+.rodaperosa {
+background-size: cover;
+background-position: center;
+  display: flex;
+  right: 0;
+  left: 0;
+}
+
+.rodape {
+  background-color: #71734C;
+  color: #71734C;
+  height:65px;
+}
+
+.rodaperosa {
+  background-color: #F27979;
+  color: #F27979;
+  height: 25px;
+  display: flex;
+
+  
+
 }
 
 /* essa vai ser a área abaixo do cabeçalho, possuindo a barra de pesquisa e afins */
 
+.divBusca {
+  position: absolute;
+  width: 500px;
+  height: 20px;
+  right: 0;
+  top: 260px;
+  background: #D9D9D9;
+  border-radius: 57px;
+  text-align: left;
+}
 
-/* Aba de Busca */
+.busca {
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 300px;
+  top: 50px;
+  color: white;
+}
 
-#divBusca{
-    position: absolute;
-    background-color:#f7d0d0;
-    border:solid 2px #71734C;
-    border-radius:10px;
-    width:420px;
-    height:32px;
-    top: 350px;
-    left: 1000px;
-  }
-  
-  #txtBusca{
-    position: absolute;
-    float:left;
-    background-color:transparent;
-    padding-left:5px;
-    font-size:18px;
-    border:none;
-    height:30px;
-    width:300px;
-    left: 26px;
-  }
-  
-  #btnBusca{
-    position: absolute;
-    border:none;
-    right: 0px;
-    height:30px;
-    border-radius:0 7px 7px 0;
-    width:90px;
-    font-weight:bold;
-    background:#71734C;
-  }
-  
-  #divBusca img{
-    position: absolute;
-    float:left;
-    top:5px;
-    left: 2px;
-    width: 20px;
-  }
+.carousel-item {
+  position: absolute;
+  background: black;
+  width: 100%;
+  height: 600px;
+  background-size: cover;
+}
+.carousel-item>img{
+  height: 350px;
+}
+
+#divBusca {
+
+  position: absolute;
+
+  background-color: #f7d0d0;
+
+  border: solid 2px #b43e3e;
+
+  border-radius: 10px;
+
+  width: 420px;
+
+  height: 32px;
+
+  top: 380px;
+
+  left: 1000px;
+
+}
+
+
+
+#txtBusca {
+
+  position: absolute;
+
+  float: left;
+
+  background-color: transparent;
+
+  padding-left: 5px;
+
+  font-size: 18px;
+
+  border: none;
+
+  height: 30px;
+
+  width: 300px;
+
+  left: 26px;
+
+}
+
+
+
+#btnBusca {
+
+  position: absolute;
+
+  border: none;
+
+  right: 0px;
+
+  height: 28px;
+
+  border-radius: 0 7px 7px 0;
+
+  width: 90px;
+
+  font-weight: bold;
+
+  background: #F27979;
+
+}
+
+
+
+#divBusca img {
+
+  position: absolute;
+
+  float: left;
+
+  top: 5px;
+
+  left: 2px;
+
+  width: 20px;
+
+}
 
 /* area do carrosel */
+.carousel {
+  max-height: 350px;
+  position: absolute;
 
-.carousel-item{
-    position: absolute;
-    background: black;
-    width: 100%;
-    height: 350px;
-    background-size: cover;
 }
 
-.carousel-inner, .active{
-    max-height: 350px;
-    object-fit: cover;
+.carousel-inner,
+.active {
+  max-height: 350px;
+  position: absolute;
 }
 
+/* parte dos produtos */
+.produtos {
+  display: inline-flex;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 360px;
+ background-color: #D9D9D9;
+ 
 
-/* novidades e promoções */
+}
+.bloco:hover{
+  transform: scale(1.1);
+  transition-property: transform;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-out;
+}
 
-.novidades{
-  position: absolute;
-  background: aqua;
-  border-radius: 57px;
-  width: 386px;
-  height: 213px;
-  top: 500px;
-  left: 180px;
-  
+.bloco {
+ 
+  background-color: #F27979;
+  width: 202px;
+  height: 260px;
+  margin-top: 50px;
+  margin-left: 10px;
+  border-radius: 10%;
+
+
+
 }
-.novidadescor{
-  position: absolute;
-  background: rgb(0, 255, 21);
-  border-radius: 57px;
-  width: 386px;
-  height: 223px;
-  top: 490px;
-  left: 190px;
+
+.imagem-p {
+  width: 190px;
+  height: 190px;
+  background-size: cover;
+  border-radius: 10%;
+  margin-left: 5px;
+  margin-top: 5px;
+  background-color: #d9d9d9;
+
 }
-.novidadesEscrita{
-  position: absolute;
-  top: 590px;
-  left: 330px;
+
+.preco {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  margin-left: 5px;
+
 }
-.produtos{
-  position: absolute;
-  background: aqua;
-  border-radius: 57px;
-  width: 386px;
-  height: 213px;
-  top: 500px;
-  left: 950px;
-  
-}
-.produtoscor{
-  position: absolute;
-  background: rgb(234, 0, 255);
-  border-radius: 57px;
-  width: 386px;
-  height: 223px;
-  top: 490px;
-  left: 960px;
-}
-.produtosEscrito{
-  position: absolute;
-  top: 590px;
-  left: 1100px;
+
+.nome {
+  margin-top: -20px;
+  font-size: 17px;
+  margin-left: 5px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 
